@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-*{
+* {
   box-sizing: border-box;
 }
 
-body{
+body {
   padding: 0;
   margin: 0;
 }
@@ -20,6 +20,7 @@ body{
   max-width: 1400px;
   margin: auto;
   padding: 0 1rem;
+  margin-top: 1.5rem;
 }
 /* ------------------------------Nav Section */
 
@@ -27,10 +28,10 @@ body{
   display: flex;
 }
 
-button{
+button {
   cursor: pointer;
 }
-button:hover{
+button:hover {
   opacity: 0.8;
 }
 .nav-items {
@@ -186,7 +187,7 @@ button:hover{
   background-color: white;
 }
 .story-head {
-  background: linear-gradient(8deg, #fea30163, white),url("../assets/bg.png");
+  background: linear-gradient(8deg, #fea30163, white), url("../assets/bg.png");
 }
 
 .stories-section {
@@ -265,63 +266,58 @@ button:hover{
   background-color: black;
   padding: 0.9rem 2.5rem;
   border-radius: 1rem;
-  margin: 3rem ;
+  margin: 3rem;
   font-weight: 600;
 }
 
 /* --------------------------footer */
-.footer-parent{
-  background-color: #01ACFD;
+.footer-parent {
+  background-color: #01acfd;
   color: white;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.footer{
+.footer {
   width: 100%;
   max-width: 1400px;
   display: flex;
   justify-content: space-around;
-
 }
-
-
-
-
 
 /* -----------------------------Media Query  */
 
 @media screen and (max-width: 576px) {
   .nav-items,
   .school,
-  .btn-primary{
+  .btn-primary {
     display: none;
     border-bottom: 2px solid orange;
   }
-  .banner-img{
+  .banner-img {
     width: 100%;
   }
 
-  .banner-content{
+  .banner-content {
     text-align: center;
   }
-  .banner-main{
+  .banner-main {
     flex-direction: column-reverse;
   }
 
-  .curriculum-container{
+  .curriculum-container {
     flex-direction: column;
   }
 
-  .curriculum-btn-main{
+  .curriculum-btn-main {
     display: none;
   }
 
-  .story-1{
+  .story-1 {
     display: none;
   }
-  .footer{
+  .footer {
     flex-direction: column;
     padding: 1rem;
   }
