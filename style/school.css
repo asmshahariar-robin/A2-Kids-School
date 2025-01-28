@@ -2,7 +2,6 @@
 
 *{
   box-sizing: border-box;
-  border: solid 1px red;
 }
 
 body{
@@ -20,6 +19,7 @@ body{
 .parent-div {
   max-width: 1400px;
   margin: auto;
+  padding: 0 1rem;
 }
 /* ------------------------------Nav Section */
 
@@ -27,6 +27,12 @@ body{
   display: flex;
 }
 
+button{
+  cursor: pointer;
+}
+button:hover{
+  opacity: 0.8;
+}
 .nav-items {
   gap: 1.25rem;
   font-weight: 600;
@@ -276,7 +282,6 @@ body{
   width: 100%;
   max-width: 1400px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
 
 }
@@ -317,5 +322,9 @@ body{
 
   .story-1{
     display: none;
+  }
+  .footer{
+    flex-direction: column;
+    padding: 1rem;
   }
 }
